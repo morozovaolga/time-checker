@@ -1,7 +1,7 @@
 var date = new Date();
-var monthes = ['Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня', 'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'];
+var months = ['Января', 'Февраля', 'Марта', 'Апреля', 'Мая', 'Июня', 'Июля', 'Августа', 'Сентября', 'Октября', 'Ноября', 'Декабря'];
 var day = date.getDate(),
- month = monthes[date.getMonth()],
+ month = months[date.getMonth()],
  year = date.getFullYear(),
  hours = date.getHours();
 
